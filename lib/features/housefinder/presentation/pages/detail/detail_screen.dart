@@ -5,6 +5,12 @@ class DetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column(
+      children: [_detailCard()],
+    );
   }
+}
+
+Widget _detailCard() {
+  return const Center(child: Text('Ini Detail Screnn'));
 }
